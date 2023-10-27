@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card{
+  width: 250px;
+  height: 300px;
+  border: 2px solid gray;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: -9px 1px 52px -2px rgba(0,0,0,0.56);
+  -webkit-box-shadow: -9px 1px 52px -2px rgba(0,0,0,0.56);
+  -moz-box-shadow: -9px 1px 52px -2px rgba(0,0,0,0.56);
+  position: static !important;
 }
 
-.App-link {
-  color: #61dafb;
+.card img{
+width: 250px;
+height: 220px;
+}
+.container{
+  margin-top: 230px;
+  display: flex;
+  justify-content: space-around;
+}
+.carousel{
+      height: 520px;
+  margin-left: 253px;
+  margin-top:  210pxpx;;
+  width: 55%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: red;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+}
+
+.carouselExampleIndicators,.carousel, .slide, .carousel-indicators, .carousel-inner{
+  position: static !important;
+}
+
+.carousel-item{
+  position: static !important;
 }
